@@ -1,4 +1,4 @@
-const CACHE_NAME = "saltline-mobile-v1";
+const CACHE_NAME = "saltline-mobile-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
