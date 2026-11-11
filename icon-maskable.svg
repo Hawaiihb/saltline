@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0b0d0f"/>
+  <circle cx="256" cy="256" r="182" fill="#14181b" stroke="#ffb347" stroke-width="10"/>
+  <text x="256" y="282" fill="#e8e4da" font-family="Arial, sans-serif" font-size="58" font-weight="900" letter-spacing="1" text-anchor="middle">SALTLINE</text>
+  <text x="256" y="338" fill="#ffb347" font-family="Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="6" text-anchor="middle">FABLE 5.2</text>
+</svg>

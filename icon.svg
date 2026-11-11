@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0b0d0f"/>
+  <path d="M70 112h372v12H70zM70 388h372v12H70z" fill="#ffb347"/>
+  <text x="256" y="300" fill="#e8e4da" font-family="Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="1" text-anchor="middle">SALTLINE</text>
+  <text x="256" y="360" fill="#ffb347" font-family="Arial, sans-serif" font-size="32" font-weight="800" letter-spacing="7" text-anchor="middle">BY FABLE 5.2</text>
+</svg>

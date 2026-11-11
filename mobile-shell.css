@@ -1,0 +1,63 @@
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  overscroll-behavior: none;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+#app {
+  height: var(--app-height, 100dvh);
+}
+
+#rotate-hint {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  padding: 24px;
+  background: #0b0d0f;
+  color: #e8e4da;
+  font: 700 18px/1.2 var(--f-label);
+  text-align: center;
+}
+
+.rotate-phone {
+  width: 34px;
+  height: 58px;
+  border: 2px solid #ffb347;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px rgb(255 179 71 / 20%);
+  transform: rotate(90deg);
+}
+
+@media (orientation: portrait) and (max-width: 900px) {
+  #rotate-hint {
+    display: flex;
+  }
+}
+
+@media (display-mode: standalone) {
+  body {
+    min-height: 100dvh;
+  }
+}
+
+/* Touch hardening: keep the browser from stealing drags (scroll/zoom/pull-refresh)
+   so the game's own joystick and look controls get every touch. */
+html,
+body,
+#app,
+#view {
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
